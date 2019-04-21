@@ -20,8 +20,24 @@
 	</style>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="/">TheGameSpider's Portfolio</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/" tabindex="-1">Potrfolio</a>
+				</li>
+			</ul>
+			<span class="navbar-text">
+				<a href="https://www.patreon.com/bePatron?u=13542936" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+			</span>
+		</div>
+	</nav>
 	<div class="container">
-		<h2 class="my-2">TheGameSpider's Portfolio</h2>
+		<h2 class="my-2"></h2>
 		<div class="card mt-2">
 			<div class="card-body">
 				<h2>Apps</h2>
@@ -164,24 +180,21 @@
 									</button>
 								</div>
 								<div class="modal-body">
-									<p class="card-text text-center">TechnicSolder is an API that sits between a modpack repository and the TechnicLauncher. It allows you to easily manage multiple modpacks in one single location. <br><br>
-
-Using Solder also means your packs will download each mod individually. This means the launcher can check MD5's against each version of a mod and if it hasn't changed, use the cached version of the mod instead. What does this mean? Small incremental updates to your modpack doesn't mean redownloading the whole thing every time! 
-<br><br>
+									<p class="card-text text-center">
+										TechnicSolder is an API that sits between a modpack repository and the TechnicLauncher. It allows you to easily manage multiple modpacks in one single location.
+										<br><br>
+										Using Solder also means your packs will download each mod individually. This means the launcher can check MD5's against each version of a mod and if it hasn't changed, use the cached version of the mod instead. What does this mean? Small incremental updates to your modpack doesn't mean redownloading the whole thing every time! 
+										<br><br>
 										TechnicSolder was originaly developed by Technic using the Laravel Framework. However, the application is difficult to install and use. Solder.cf runs on pure PHP with zip and MySQL extensions and it's very easy to use. To install, you just need to install zip extension, setup MySQL database and extract Solder to your root folder. And the usage is even easier! Just Drag n' Drop your mods.
 										<br><br>
-On January 1st, 2019 I released Solder.cf version 1.0.0. I created something better than I expected. There is no installation needed, no composer or hard-to-get PHP extensions. It runs pure PHP with zip extension. It also needs a MySQL database. The best thing about this application - it automatically process your .jar files. You can upload hundreds of mods at once, and the application can extract mod information like author or version from these files, zips them and saves them to your data storage and MySQL database. With simple GUI you can create and publish modpacks in seconds.
-<br><br>
-You can download this application for free <a href="https://github.com/TheGameSpider/TechnicSolder" target="_blank">from GitHub</a>, but making modpacking simple costs time, and time costs money. If you are a modpack creator and want to support my work, please <a target="_blank" href="https://patreon.com/TheGameSpider">consider becoming a patron</a>, so I can make modpack creation even simpler.
-<br><br>
-Thank you.
-</p>
+										On January 1st, 2019 I released Solder.cf version 1.0.0. I created something better than I expected.  The best thing about this application - it automatically process your .jar files. You can upload hundreds of mods at once, and the application can extract mod information like author or version from these files, zips them and saves them to your data storage and MySQL database. With simple GUI you can create and publish modpacks in seconds.
+										<br><br>
+										You can download this application for free <a href="https://github.com/TheGameSpider/TechnicSolder" target="_blank">from GitHub</a>, but making modpacking simple costs time, and time costs money. If you are a modpack creator and want to support my work, please <a target="_blank" href="https://patreon.com/TheGameSpider">consider becoming a patron</a>, so I can make modpack creation even simpler.
+										<br><br>
+										Thank you.
+									</p>
 									<hr>
-									<div class="card-columns">
-										<div class="card">
-											<img src="./img/solder_screen.jpg" class="card-img">
-										</div>
-									</div>
+											<img src="./img/solder_screen.jpg" class="img-fluid">
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -190,7 +203,6 @@ Thank you.
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
